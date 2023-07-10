@@ -1,0 +1,30 @@
+﻿
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: white;
+	font-family: arial;
+}
+input{
+	display: block;/*para colocar um botão debaixo do outro*/
+	height: 50px;  /*altura dos inputs*/
+	width: 200px; /*largura dos inputs*/
+	margin: 400px;
+	border-radius: 30px; /* deixa a borda redonda*/
+	border: 1px solid black;
+	font-size: 16pt; /*tamanho da letra*/
+	padding: 10px 20px;
+	outline: none; /*tira contorno azul que aparece clicamos sobre a tela de login*/
+
+}
+
+input[type=submit]{
+	background-color:#8B4513;
+	cursor: pointer; /* para aparecer a mãozinha quando passamos o mouse sobre o botão enviar*/
+	color: White;
+}
+::-webkit-input-placeholder{  /* para mudar a cor do placeholder */
+	color: black;
+}

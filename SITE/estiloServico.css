@@ -1,0 +1,53 @@
+﻿
+*{
+	margin:0px;
+	padding:0px;
+}
+input{
+	
+	display: block; /*para colocar um botão debaixo do outro*/
+	height: 35px;  /*altura dos inputs*/
+	width: 300px; /*largura dos inputs*/
+	margin: 10px;
+	font-size: 12pt; /*tamanho da letra*/
+	padding: 10px 20px;
+	border-radius: 30px;
+    border: 1 px solid black;	/* para deixar a borda redonda */
+ /*tira contorno azul que aparece clicamos sobre a tela de login*/
+
+}
+.primeiratabela{
+	margin-left: 400px;
+	margin-top: 300px;
+	font-size: 20;
+}
+
+.segundatabela{
+	margin-left: 400px;
+	margin-bottom: 50px;
+	font-size: 20;
+	margin-top: 0px;
+}
+
+.terceiratabela{
+	margin-left: 400px;
+	margin-right:200px;
+	font-size: 20;
+}
+div#cabecalho h1{
+	margin-left: 350px;
+	margin-top: 50px;
+	
+}
+input[type=submit]{
+	background-color:#8B4513;
+	cursor: pointer; /* para aparecer a mãozinha quando passamos o mouse sobre o botão enviar*/
+	color: White;
+	height: 50px;
+	width: 200px;
+}
+::-webkit-input-placeholder{  /* para mudar a cor do placeholder */
+	color: black;
+}
+
+

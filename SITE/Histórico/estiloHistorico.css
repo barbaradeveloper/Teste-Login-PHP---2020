@@ -1,0 +1,34 @@
+input{
+	margin: 10px;
+	display: block; /*para colocar um botão debaixo do outro*/
+	height: 25px;  /*altura dos inputs*/
+	width: 300px; /*largura dos inputs*/
+	margin: 10px;
+	font-size: 16pt; /*tamanho da letra*/
+	padding: 10px 20px;
+ /*tira contorno azul que aparece clicamos sobre a tela de login*/
+
+}
+.primeiratabela{
+	margin-left: 200px;
+	margin-top: 50px;
+	font-size: 20;
+}
+
+.segundatabela{
+	margin-left: 850px;
+	margin-bottom: 0px;
+	font-size: 20;
+	margin-top: 0px;
+}
+
+.terceiratabela{
+	margin-left: 200px;
+	margin-right:200px;
+	font-size: 20;
+}
+div#cabecalho h1{
+	margin-left: 200px;
+	margin-top: 50px;
+	
+}

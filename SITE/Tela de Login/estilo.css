@@ -1,0 +1,53 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: white;
+	font-family: arial;
+
+}
+input{
+	display: block; /*para colocar um botão debaixo do outro*/
+	height: 55px;  /*altura dos inputs*/
+	width: 400px; /*largura dos inputs*/
+	margin: 10px;
+	border-radius: 30px; /* deixa a borda redonda*/
+	border: 1px solid black;
+	font-size: 16pt; /*tamanho da letra*/
+	padding: 10px 20px;
+	outline: none; /*tira contorno azul que aparece clicamos sobre a tela de login*/
+
+}
+
+div#corpo-form{
+	/*background-color: green;*/
+	width: 420px; /*largura da div*/
+	margin: 140px auto 0px auto; /*centralizar div*/
+}
+
+div#corpo-form h1{ /* div para formatar o h1 */
+	text-align: center;
+	padding: 20px;
+}
+
+a{                    /* para formatar o link de Cadastre-se */
+	color: green;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+a:hover{         /* para quando passar o mouse por cima do link de Cadastre-se aparecer o underline */
+	text-decoration: underline;
+}
+input[type=submit]{
+	background-color:#8B4513;
+	cursor: pointer; /* para aparecer a mãozinha quando passamos o mouse sobre o botão enviar*/
+	color: White;
+}
+::-webkit-input-placeholder{  /* para mudar a cor do placeholder */
+	color: black;
+}
+
+
